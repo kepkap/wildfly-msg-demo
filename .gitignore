@@ -1,0 +1,15 @@
+# Intellij project files
+*.iml
+
+.idea/workspace.xml
+.idea/uiDesigner.xml
+.idea/libraries/
+
+artifacts
+
+build/
+log/
+
+.DS_Store
+/.idea/runConfigurations/
+.idea/modules/
