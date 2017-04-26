@@ -8,7 +8,7 @@ import javax.ws.rs.core.Application;
  * on 26/04/2017.
  */
 @ApplicationPath("/")
-public class SomeRestController extends Application {
+public class DemoApplication extends Application {
 
 
 }
