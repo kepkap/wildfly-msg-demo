@@ -18,7 +18,7 @@ public class App {
 
         swarm.start();
 
-        final JAXRSArchive deployment = ShrinkWrap.create(JAXRSArchive.class);
+        JAXRSArchive deployment = ShrinkWrap.create(JAXRSArchive.class);
         deployment.addResource(DemoApplication.class);
         deployment.addResource(HelloWorldController.class);
 
