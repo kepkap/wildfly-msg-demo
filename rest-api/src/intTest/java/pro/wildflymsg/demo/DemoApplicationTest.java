@@ -19,16 +19,11 @@ public class DemoApplicationTest {
     @Drone
     WebDriver browser;
 
-    @Test
-    public void testIt() {
-        browser.navigate().to("http://localhost:8080/");
-        assertThat(browser.getPageSource()).contains("Howdy at ");
-    }
 
     @Test
-    public void testExceptionMapping() {
-        browser.navigate().to("http://localhost:8080/bad");
-        assertThat(browser.getPageSource()).contains("This is our exception page!");
+    public void testHelloWorld() {
+        browser.navigate().to("http://localhost:8080/helloWorld");
+        assertThat(browser.getPageSource()).contains("Hello World!");
     }
 
 }
