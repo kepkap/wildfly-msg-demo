@@ -5,7 +5,8 @@ import org.jboss.arquillian.junit.Arquillian;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
-import org.wildfly.swarm.it.AbstractIntegrationTest;
+
+import static org.fest.assertions.Assertions.assertThat;
 
 /**
  * Created by kepkap
@@ -13,7 +14,7 @@ import org.wildfly.swarm.it.AbstractIntegrationTest;
  */
 @RunWith(Arquillian.class)
 
-public class DemoApplicationTest extends AbstractIntegrationTest {
+public class DemoApplicationTest {
 
     @Drone
     WebDriver browser;
