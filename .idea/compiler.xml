@@ -6,10 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="wildfly-msg-demo" />
+        <module name="rest-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="rest-api" target="1.8" />
       <module name="wildfly-msg-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

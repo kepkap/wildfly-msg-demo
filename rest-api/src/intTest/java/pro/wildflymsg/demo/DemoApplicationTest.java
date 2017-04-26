@@ -1,9 +1,11 @@
 package pro.wildflymsg.demo;
 
+import org.jboss.arquillian.drone.api.annotation.Drone;
+import org.jboss.arquillian.junit.Arquillian;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-
-import static org.junit.Assert.*;
+import org.openqa.selenium.WebDriver;
+import org.wildfly.swarm.it.AbstractIntegrationTest;
 
 /**
  * Created by kepkap
